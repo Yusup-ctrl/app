@@ -1,7 +1,9 @@
 <?php
 
+use App\CpuBrand;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    // dd(array_column(CpuBrand::cases(), 'value'));
+    // return view('welcome');
 });
